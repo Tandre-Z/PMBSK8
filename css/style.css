@@ -1,0 +1,87 @@
+a {
+    color: #C83131;
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    transition: 0.1s ease-in-out;
+}
+
+a:hover {
+    color: #ff4040;
+    top: -1px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    color: #333;
+    font-family: Helvetica, Tahoma, Arial, STXihei, "åŽæ–‡ç»†é»‘", "Microsoft YaHei", "å¾®è½¯é›…é»‘", SimSun, "å®‹ä½“", Heiti, "é»‘ä½“", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.625em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.small {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width: 25%;
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100%;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+
+h2 {
+    transform: rotate(0.5deg);
+    text-align: left;
+    font-weight: bold;
+    margin-top: 2.5em;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 1.75em;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+p {
+    width: 100%;
+    transform: rotate(-0.3deg);
+    text-align: center;
+}
